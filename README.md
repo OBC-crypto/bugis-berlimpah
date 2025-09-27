@@ -1,5 +1,7 @@
 # bugis-berlimpah
 
+sudo docker build -t freqai .
+
 Command Download Data
 
 sudo docker compose run --rm freqtrade download-data --config user_data/config.json --timerange 20220101-20250922 --timeframe 3m 15m 1h
